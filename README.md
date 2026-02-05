@@ -1,6 +1,6 @@
 # 👢 GroupBooter — One-Click Member Remover
 
-GroupBooter is a lightweight browser-console helper for **Facebook-style group clones**
+GroupBooter is a lightweight browser-console helper for **Facebook**
 It injects a floating button that lets you remove members **one by one** with a single click or the **R** hotkey.  
 
  GroupBooter gives you **control and safety**:  
@@ -44,4 +44,5 @@ const CONFIRM_MATCH = [/^Remove member$/i, /confirm/i, /yes/i, /ok/i];
 
 // Skip anything above this Y position (prevents clicking header menus)
 const MIN_ROW_TOP_PX = 300;
+
 
